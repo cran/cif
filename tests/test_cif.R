@@ -31,9 +31,9 @@ ymat <- ec.datalag(y,nlag)
 oua1<-ec.main(y=y,ndet=ndet,nlag,befpn,breaks,booseas,
               pntdates,drop1=NA,drop2=NA,cal=cal)
 
+class(oua1)
 
-
-
+summary(oua1)
 
 
 

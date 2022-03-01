@@ -41,7 +41,7 @@ ec.predict <- function(est,det1,det2,ymat,npl,befpn,ndet,cal,kval=1.959964){
 if(nump <= 0){stop("endtrim+npred<=0\n")}           # check if nump > 0
 if(nforecast > endtrim){stop("nforecast > endtrim")} # check  npred > nforecast
   obsdata <- as.matrix(ymat);                     # total set of obervations
-  longafdl<-longafdd<-longaffore<-matrix(NA,n+npred,6); # initialize longafdd, longafdl, longaffore
+  longafdl<-longafdd<-longaffore<-matrix(NA,n+npred,(3*p)); # initialize longafdd, longafdl, longaffore
   ncheck <-length(cal); # number of time period
 if(n!= ncheck){stop("rows in ymat not equal to cal\n")} # check if nrows don't match
   longcal <- seq(from=cal[1], by="days",length.out = ntot)

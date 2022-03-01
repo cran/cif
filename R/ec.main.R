@@ -56,7 +56,7 @@ ec.main <- function(y,ndet=c(2,1),nlag,befpn,breaks=NA,booseas=NA,
   results<-append(results,est); results<-append(results,outB)
   results$cal<-cal;
   # ---------- return -------------
-  class(results) <- "presize"
+  class(results) <- "cif"
   return(results)
 }
 

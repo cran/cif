@@ -1,4 +1,4 @@
-a679e2c7a6dbda451ae8ef956647a212 *DESCRIPTION
+824947d440d56f5c9d76311e32c938ed *DESCRIPTION
 327dd86b67b3b11ab69e5fc51c073d6a *NAMESPACE
 230d39df89479fa93def032553241037 *R/Wald.mls.R
 c903910ca79948660d2812b3c567b7bb *R/crossing.R
@@ -12,10 +12,10 @@ eef28c57cab06d6fbc17e403a8771313 *R/diffe.R
 bbbc6ba451d789dbf6912c01a34620ef *R/ec.gfl.R
 55c4077c6fbff27b5e193f656c28bb16 *R/ec.gfld.R
 6fcb442d71e5a971e1372247c63eda2d *R/ec.ifp.R
-3204aaf4a9c66a859804710cef89b8fb *R/ec.main.R
+12f687f03601f48183ac2fcf542cca77 *R/ec.main.R
 0d86792895e4e9ca45e22e92c81cda9e *R/ec.plotfor.R
 173c67da405f7d93f604aa248b39af71 *R/ec.plotroots.R
-f8a212d8f4c6d8418969a53fb5f03391 *R/ec.predict.R
+c42fde7588c3ee0d07c72bb5821344b1 *R/ec.predict.R
 65af197cc1e7ce266356a100e0f36e91 *R/ec.searchbreaks.R
 931ab819ec3884a8e44acadbdf776647 *R/iculomb-data.R
 24e60e618035c9d9ec5011770d28d885 *R/lagn.R
@@ -46,6 +46,6 @@ ae0a6e9f8425a579decfeff02c46cd33 *man/lagn.Rd
 9751639b7721e528fd69ee1bc6070e1a *man/listsize.Rd
 5d3eba16410f25de0c711fafc108b21e *man/mls.Rd
 14ae2748eb3b80d0602f15a3f6a9a333 *man/summary.cif.Rd
-29dcb55c87fd8c44f3a6c67e9ea50e17 *tests/test_cif.R
+8ec031d3d23f326b4e1d380a159fc118 *tests/test_cif.R
 4bf31c5a8cca24a4c962306e298be513 *tests/testthat.R
 29dcb55c87fd8c44f3a6c67e9ea50e17 *tests/testthat/test_cif.R
